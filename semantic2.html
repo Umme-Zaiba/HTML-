@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+        }
+        header, nav, section, article, aside, footer {
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+        figure {
+            border: 1px solid #ccc;
+            margin: 0;
+            padding: 10px;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Header</h1>
+        <p>This is the header of the page.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section>
+            <h2>Section 1</h2>
+            <article>
+                <h3>Article 1</h3>
+                <p>This is an article within the first section.</p>
+            </article>
+            <article>
+                <h3>Article 2</h3>
+                <p>This is another article within the first section.</p>
+            </article>
+        </section>
+
+        <aside>
+            <h2>Aside</h2>
+            <p>This is content in the aside element, which is tangentially related to the main content.</p>
+        </aside>
+
+    </main>
+
+    <figure>
+        <img src="example-image.jpg" alt="Example Image">
+        <figcaption>Figure Caption</figcaption>
+    </figure>
+
+    <mark>This is highlighted text using the mark element.</mark>
+
+    <time datetime="2024-02-14">February 14, 2024</time>
+
+    <details>
+        <summary>Click for more details</summary>
+        <p>This is additional information that can be revealed when the user clicks the summary.</p>
+    </details>
+
+    <footer>
+        <p>Footer - &copy; 2024 My Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
